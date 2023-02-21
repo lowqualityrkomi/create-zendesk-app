@@ -12,7 +12,7 @@ npm install -g @lowqualityrkomi/create-zendesk-app
 
 ## Usage
 
-After installing `create-zendesk-app`, you can run the command `create-zendesk-app new` in your terminal to start the CLI. Follow the prompts to configure your new Zendesk app project.
+After installing `@lowqualityrkomi/create-zendesk-app`, you can run the command `create-zendesk-app new [directory]` in your terminal to start the CLI. Follow the prompts to configure your new Zendesk app project.
 
 ## Configuration options
 
