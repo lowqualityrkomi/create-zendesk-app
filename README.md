@@ -7,7 +7,7 @@ This is a command-line interface (CLI) tool to generate a new Zendesk app projec
 You can install `create-zendesk-app` globally using `npm`:
 
 ```sh
-npm install -g create-zendesk-app
+npm install -g @lowqualityrkomi/create-zendesk-app
 ```
 
 ## Usage
