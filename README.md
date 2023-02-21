@@ -19,7 +19,6 @@ After installing `create-zendesk-app`, you can run the command `create-zendesk-a
 The CLI prompts the user for the following options:
 
 -   Project name
--   Project directory
 -   Framework type
     -   Vanilla
     -   React
