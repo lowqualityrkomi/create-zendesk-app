@@ -4,6 +4,8 @@ Thank you for investing your time in contributing to our project! Any contributi
 
 In this guide you will get an overview of the contribution.
 
+In [Next  updates](#next-updates) You can find a list of updates you can contribute to!
+
 ## Templates
 
 In the folder `templates` you can find all the templates. Following you can see the folder tree:
@@ -64,3 +66,8 @@ To add a new framework:
 	]
 }
 ```
+
+## Next updates
+
+- Add command `settings` to setup the author informations
+- Add NuxtJS framework
