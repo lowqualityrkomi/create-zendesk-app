@@ -1,16 +1,12 @@
 {
-	"name": "create-zendesk-app",
+	"name": "@lowqualityrkomi/create-zendesk-app",
 	"description": "A tool to create new zendesk apps",
-	"version": "0.0.1",
+	"version": "1.0.1",
 	"license": "ISC",
 	"bin": {
 		"create-zendesk-app": "index.js"
 	},
-	"author": {
-		"name": "lowqualityrkomi",
-		"email": "casoni.mirko@gmail.com",
-		"url": "https://github.com/lowqualityrkomi"
-	},
+	"author": "lowqualityrkomi <casoni.mirko@gmail.com> (https://github.com/lowqualityrkomi)",
 	"keywords": [
 		"create-zendesk-app",
 		"zendesk",
@@ -40,5 +36,17 @@
 	},
 	"devDependencies": {
 		"prettier": "^2.8.4"
-	}
+	},
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lowqualityrkomi/create-zendesk-app.git"
+	},
+	"bugs": {
+		"url": "https://github.com/lowqualityrkomi/create-zendesk-app/issues"
+	},
+	"homepage": "https://github.com/lowqualityrkomi/create-zendesk-app#readme"
 }

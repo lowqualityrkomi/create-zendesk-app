@@ -36,4 +36,4 @@ The CLI prompts the user for the following options:
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome! Follow the [CONTRIBUTING guide line](https://github.com/lowqualityrkomi/create-zendesk-app/blob/main/CONTRIBUTING.md)
