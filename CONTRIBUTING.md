@@ -69,5 +69,5 @@ To add a new framework:
 
 ## Next updates
 
-- Add command `settings` to setup the author informations
+- Improve command `config`
 - Add NuxtJS framework
