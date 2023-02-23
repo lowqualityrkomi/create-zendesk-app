@@ -10,11 +10,18 @@ You can install `create-zendesk-app` globally using `npm`:
 npm install -g @lowqualityrkomi/create-zendesk-app
 ```
 
-## Usage
+## Commands
 
-After installing `@lowqualityrkomi/create-zendesk-app`, you can run the command `create-zendesk-app new [directory]` in your terminal to start the CLI. Follow the prompts to configure your new Zendesk app project.
+`create-zendesk-app` has the following runnable commands:
 
-## Configuration options
+-   `new` : Start a new project generation
+-   `config` : Configure the command (like author informations)
+
+## Create new project
+
+You can run the command `create-zendesk-app new [directory]` in your terminal to start the new project generation. Follow the prompts to configure your new Zendesk app project.
+
+### Configuration options
 
 The CLI prompts the user for the following options:
 
@@ -33,6 +40,10 @@ The CLI prompts the user for the following options:
 -   Author email
 -   Author website
 -   App location
+
+## Command configuration
+
+You can configure author informations using the command `create-zendesk-app config`. You will select `Author info` and insert author informations.
 
 ## Contributing
 
