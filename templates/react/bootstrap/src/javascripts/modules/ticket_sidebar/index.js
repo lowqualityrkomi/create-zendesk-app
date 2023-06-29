@@ -4,15 +4,15 @@
 import React from "react";
 import { render } from "react-dom";
 import { ThemeProvider, Container, Row, Col, ListGroup } from "react-bootstrap";
-import I18n from "../../javascripts/lib/i18n";
-import { resizeContainer, escapeSpecialChars as escape } from "../../javascripts/lib/helpers";
+import I18n from "../../lib/i18n";
+import { resizeContainer, escapeSpecialChars as escape } from "../../lib/helpers";
 
 const MAX_HEIGHT = 1000;
 const API_ENDPOINTS = {
 	organizations: "/api/v2/organizations.json",
 };
 
-class App {
+class AppProvider {
 	constructor(client, _appData) {
 		this._client = client;
 
@@ -74,4 +74,4 @@ class App {
 	}
 }
 
-export default App;
+export default AppProvider;
