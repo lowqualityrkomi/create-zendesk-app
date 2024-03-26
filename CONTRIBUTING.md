@@ -4,7 +4,7 @@ Thank you for investing your time in contributing to our project! Any contributi
 
 In this guide you will get an overview of the contribution.
 
-In [Next  updates](#next-updates) You can find a list of updates you can contribute to!
+In [Next updates](#next-updates) You can find a list of updates you can contribute to!
 
 ## Templates
 
@@ -48,11 +48,19 @@ To add a new template:
 
 To add a new framework:
 
--   move into `templates`
--   create a new folder with the name of the framework
 -   add all the ui templates following the guide [UI Templates](#ui-templates)
--   open the file `lib/prompts.js`
--   add the new framework in the `choices` (the value must have the same name of the new framework folder)
+
+For vanilla projects:
+
+-   move into `templates`
+-   create a new folder with the name name of the framework
+
+For react:
+
+-   move into `lib/utils/new`
+-   open the file `setupModules.js`
+-   add a case with the name value of the framework just added
+-   add the index.js and App.js content
 
 ```
 {
@@ -69,5 +77,4 @@ To add a new framework:
 
 ## Next updates
 
-- Improve command `config`
-- Add NuxtJS framework
+-   Add NuxtJS framework
