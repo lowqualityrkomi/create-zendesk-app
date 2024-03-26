@@ -33,7 +33,7 @@ The CLI prompts the user for the following options:
     -   None
     -   Bootstrap
     -   Zendesk Garden
-    -       MUI Material
+    -   MUI Material
 -   Version control system
     -   Git
     -   None
