@@ -49,4 +49,7 @@
 		"url": "https://github.com/lowqualityrkomi/create-zendesk-app/issues"
 	},
 	"homepage": "https://github.com/lowqualityrkomi/create-zendesk-app#readme"
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/lowqualityrkomi"
+	}
 }
