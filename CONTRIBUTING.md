@@ -52,12 +52,14 @@ To add a new framework:
 
 For vanilla projects:
 
--   move into `templates`
--   create a new folder with the name name of the framework
+-   move into `lib/utils/new/vanilla`
+-   open the file `createHtml.js`
+-   add a case with the name value of the framework just added into the function `getUiLibrary` containing the css cdn
+-   add a case with the name value of the framework just added into the function `createJavascript` containing the js cdn
 
 For react:
 
--   move into `lib/utils/new`
+-   move into `lib/utils/new/react`
 -   open the file `setupModules.js`
 -   add a case with the name value of the framework just added
 -   add the index.js and App.js content
